@@ -1,0 +1,34 @@
+{
+  "name": "projmanagement",
+  "version": "1.0.0",
+  "description": "a project application for beginners",
+  "keywords": [
+    "backend",
+    "api",
+    "creation"
+  ],
+  "homepage": "https://github.com/DinkleArora/ProjManagement#readme",
+  "bugs": {
+    "url": "https://github.com/DinkleArora/ProjManagement/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinkleArora/ProjManagement.git"
+  },
+  "license": "ISC",
+  "author": "Dinkle Arora",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "3.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
