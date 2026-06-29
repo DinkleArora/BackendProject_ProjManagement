@@ -17,6 +17,9 @@ app.use(
         allowedHeaders: ["Content-Type", "Authorization"],
     }),
 );
+
+import healthCheckRouter from "./routes/healthcheck.routes.js";
+
 app.get("/", (req, res) => {
     res.send("Welcome to baseCampy");
 });
